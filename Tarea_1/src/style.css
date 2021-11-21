@@ -1,0 +1,130 @@
+/*  David Alvarez ---> 604160919*/
+
+.header {
+  background: linear-gradient(to bottom right, rgb(69, 77, 77), rgb(0, 0, 0));
+  color: red;
+  display: flex;
+  padding: 10px;
+}
+
+.brand_logo {
+  width: 75px;
+  margin-left: 10px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.col-4 {
+  width: 33%;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+}
+
+.principal {
+  background-image: url("./assets/BG_main.png");
+  background-size: cover;
+  align-content: center;
+}
+
+.nosotros {
+  background-image: url("./assets/BG_nosotros.png");
+  background-size: cover;
+  align-content: center;
+}
+
+.navigator {
+  font-size: 25px;
+  text-align: center;
+  color: blue;
+  width: 150px;
+  background-color: rgb(204, 204, 204);
+  border-radius: 8px;
+  border-style: solid;
+}
+
+.actual {
+  font-size: 25px;
+  text-align: center;
+  color: blue;
+  width: 150px;
+  background-color: rgb(76, 175, 56);
+  border-radius: 8px;
+  border-style: solid;
+}
+
+.vcenter {
+  display: flex;
+  align-items: flex-end;
+  justify-items: flex-end;
+}
+
+.end {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5px;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+.cuadro {
+  height: 55%;
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  border: 5px solid #0c17b88c;
+  border-radius: 25px;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 0, 0.7),
+    rgba(255, 166, 0, 0.7),
+    rgba(255, 0, 0, 0.7)
+  );
+  align-items: center;
+}
+
+.contenido {
+  text-align: center;
+  color: rgb(18, 18, 19);
+  text-decoration: beige;
+}
+
+.contenido img{
+  height: 200px;
+  width: 200px;
+}
+
+.recuadro{
+  margin: 0% auto;
+  border-radius: 20px;
+  padding: 20px;
+  background: linear-gradient(
+    to bottom right,
+    rgba(17, 0, 255, 0.7),
+    rgba(255, 166, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  );
+  border: 5px solid #0c17b88c;
+  height: 60%;
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+}
